@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+ } 
+
+ .header{
+    height: auto;
+    width: 100%;
+    padding: 0 8%;
+    background:purple;
+    position: relative;
+ }
+  nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  h1{
+    color: white;
+    font-size: 70px;
+  }
+
+ 
+
+  .nav-link{
+    padding: 28px 0;
+
+  }
+
+  .nav-link li{
+    display: inline-block;
+    margin: 0 15px;
+  }
+
+  .nav-link li {
+    text-decoration: none;
+    color: white;
+    padding: 5px 0;
+    position: relative;
+  }
+
+  button{
+    background: purple;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 1px;
+    cursor: pointer;
+  }
+  .metalogo{
+    height: 80px;
+  }
+
+  button:hover{
+    color: black;
+    background: white;
+  }
+
+
+
+  /* navbar */
+  .wrapper{
+    display: flex;
+    position: relative;
+    
+    margin-bottom:100px;
+  }
+  
+  .wrapper .sidebar{
+    width: 200px;
+    height: 70%;
+    background: purple;
+    padding: 30px 0px;
+    position: fixed;
+    
+  }
+  
+  
+  
+  .wrapper .sidebar ul li{
+    padding: 15px;
+    border-bottom: 1px solid #bdb8d7;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(255,255,255,0.05);
+  }    
+  
+  .wrapper .sidebar ul li a{
+    color: white;
+    display: block;
+  }
+  
+  
+  
+  .wrapper .sidebar ul li:hover{
+    background-color: whitesmoke;
+  }
+      
+  .wrapper .sidebar ul li:hover a{
+    color: black;
+  }
+   
+  @media (max-height: 500px){
+    .social_media{
+      display: none !important;
+    }
+  }
+
+  /* form*/
+  .form{
+    padding: 5px;
+    
+
+  }
+
+  .user{
+    margin-left: 450px;
+    width: 200px;
+    height:25px;
+    margin-top: 0;
+  }
+
+   
+  .taskText{
+    margin-left: 450px;
+    width:280px ;
+    height:30px ;
+  }
+
+  .taskButton1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: space-between; 
+    margin-left:5px;
+  }
+
+  .taskButton{
+    display: grid;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: space-between; 
+    margin-left:450px;
+    width: 30%;
+    margin-right: 30px;
+
+  }
+ 
+
+
+
+  .forOtherBtn{
+    margin-right:90px ;
+    width: 90px;
+    height: 30px;
+    transition-duration: 0.4s
+  }
+  .forMeBtn{
+    width: 90px;
+    height: 30px;
+    transition-duration: 0.4s
+
+  }
+
+  .savebtn{
+    width: 80px;
+    height: 30px;
+    margin-right: 270px;
+    margin-bottom: 500px;
+    margin-left: 5px;
+    transition-duration: 0.4s;
+  }
+
+
+  .forOtherBtn:hover{
+    background-color:green ;
+    color: #ddd;
+    
+  }
+
+  .forMeBtn:hover{
+    background-color:blue ;
+    color: #ddd;
+  }
+
+  .savebtn:hover{
+    background-color: PURPLE;
+    color: #ddd;
+  }
+
+/* date*/
+.Cal{
+   
+    display: flex;
+    justify-content:center;
+
+}
+
+h1{
+    font-family:sans-serif ;
+    size: 80px;
+    padding-right: 10px;
+}
+
+input{
+  height:15px ;
+  width: 100px;
+  margin-top: 33px;
+  
+  outline: none;
+  border-color: aqua;
+}
+
+
+
+
+
+/*   task list  */
+

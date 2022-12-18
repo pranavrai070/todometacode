@@ -1,0 +1,22 @@
+.Cal{
+   
+    display: flex;
+    justify-content:center;
+
+}
+
+h1{
+    font-family:sans-serif ;
+    size: 80px;
+    padding-right: 10px;
+}
+
+input{
+  height:15px ;
+  width: 100px;
+  margin-top: 33px;
+  
+  outline: none;
+  border-color: aqua;
+}
+

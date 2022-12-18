@@ -1,0 +1,60 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+ } 
+
+ .header{
+    height: auto;
+    width: 100%;
+    padding: 0 8%;
+    background:purple;
+    position: relative;
+ }
+  nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  h1{
+    color: white;
+    font-size: 70px;
+  }
+
+ 
+
+  .nav-link{
+    padding: 28px 0;
+
+  }
+
+  .nav-link li{
+    display: inline-block;
+    margin: 0 15px;
+  }
+
+  .nav-link li {
+    text-decoration: none;
+    color: white;
+    padding: 5px 0;
+    position: relative;
+  }
+
+  button{
+    background: purple;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 1px;
+    cursor: pointer;
+  }
+  .metalogo{
+    height: 80px;
+  }
+
+  button:hover{
+    color: black;
+    background: white;
+  }
+
